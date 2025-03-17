@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <meta
+      http-equiv="X-Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <title>ABA POS SDK Electron Sample</title>
+  </head>
+  <body>
+    <h1>List all available USB serial devices:</h1>
+    <p id="version-info"></p>
+    <button id="btn-list-all">List USB</button>
+    <ul id="list-usb"></ul>
+  </body>
+  <script src="./renderer/renderer.js"></script>
+</html>
